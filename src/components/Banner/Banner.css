@@ -1,0 +1,38 @@
+.banner {
+    height: 90vh;
+    margin: 80px 8%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.banner_title1 {
+    font-size: 1.5rem;
+    padding: 2% 0;
+}
+.banner_title2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.banner_desc1 {
+    font-size: 2.5rem;
+    padding: 2% 0;
+    font-weight: 500;
+}
+.banner_desc2 {
+    font-size: 1.5rem;
+}
+.banner_desc2 > p {
+    line-height: 40px;
+}
+.social_logo {
+    margin: 20px 0;
+    display: flex;
+}
+.social_logo_image {
+    width: 50px;
+    margin: 0 10px;
+}
+.social_logo_image:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
