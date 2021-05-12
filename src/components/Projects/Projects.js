@@ -17,10 +17,10 @@ function Projects() {
                     image={tsc}
                     title="Takshshila Student Community (Desktop Web App)"
                     line1="Built a platform where students of a college can interact with each other."
-                    line2="Here, students can ask about anything they are curious about."
+                    line2="Here, students can ask anything they are curious about."
                     line3="They can also sell off their non needy things."
                     line4="Or can buy things that they need from the listings."
-                    line5="It's database is managed on firestore and is hosted on Firebase. "
+                    line5="It's database is managed on Firestore and is hosted on Firebase. "
                     line6="Technologies - Reactjs, JavaScript, Redux, HTML, CSS, Firebase."
                     link="https://takshshila-tsc.web.app/"
                 />
@@ -31,7 +31,7 @@ function Projects() {
                     line2="The user can register them and can use same credentials for signing in."
                     line3="The user can add items to cart and remove them as well."
                     line4="Reusable components are built to showcase different items."
-                    line5="It's database is managed on firestore and is hosted on Firebase."
+                    line5="It's database is managed on Firestore and is hosted on Firebase."
                     line6="Technologies - Reactjs, JavaScript, Redux, HTML, CSS, Firebase."
                     link="https://k-cart.web.app/"
                 />
@@ -41,10 +41,10 @@ function Projects() {
                     line1="This Portfolio too is built using React."
                     line2="It is a website which answers to the question who am I?"
                     line3="And what have I done."
-                    line4="ooooooooooooo"
-                    line5="It is hosted on Firebase."
+                    line4="It is hosted on Firebase."
+                    line5="Have a look at it, and please feel free to contact anytime."
                     line6="Technologies - Reactjs, JavaScript, HTML, CSS, Firebase."
-                    link="https://takshshila-tsc.web.app/"
+                    link="https://harshit-portfolio99.web.app/"
                 />
                 <Project 
                     image={clg}

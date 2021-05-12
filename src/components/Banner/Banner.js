@@ -13,11 +13,11 @@ function Banner() {
                 <p>Harshit Chopra.</p>
             </div>
             <div className="banner_desc1">
-                <p>I am a passionate web developer fascinated by the tech world.</p>
+                <p>I am a passionate web developer, fascinated by the tech world.</p>
             </div>
             <div className="banner_desc2">
                 <p>
-                    I am a 3rd year undergrad student pursuing Computer Science Engineering.
+                    I am a 3rd year undergrad pursuing Computer Science Engineering.
                     I love working on front end web development projects. 
                     I have developed <span className="emerge">2 real world websites</span> till now that are
                     currently being <span className="emerge">used by the people all over India</span>, and 
