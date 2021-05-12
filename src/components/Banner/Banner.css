@@ -1,7 +1,5 @@
 .banner {
-    height: 90vh;
-    margin: 80px 8%;
-    padding: 0;
+    padding: 70px 8%;
     display: flex;
     flex-direction: column;
 }
@@ -24,6 +22,9 @@
 .banner_desc2 > p {
     line-height: 40px;
 }
+.emerge {
+    color: red;
+}
 .social_logo {
     margin: 20px 0;
     display: flex;
@@ -35,4 +36,63 @@
 .social_logo_image:hover {
     cursor: pointer;
     transform: translateY(-5px);
+}
+.mail_btn {
+    margin-top: 20px;
+}
+.mail_btnn {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: red;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.mail_btnn:hover {
+    background-color: #080808;
+}
+
+@media only screen and (max-width: 650px) {
+    /* .banner {
+        background-color: slateblue;
+    } */
+}
+
+@media only screen and (max-width: 450px) {
+    .banner {
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        padding: 30px 10px;
+    }
+    .banner_title1 {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+    .banner_title2 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .banner_desc1 {
+        font-size: 1.7rem;
+    }
+    .banner_desc2 {
+        font-size: 1.3rem;
+    }
+    .banner_desc2 > p {
+        margin-top: 10px;
+        line-height: 26px;
+    }
+    .social_logo_image {
+        width: 40px;
+    }
+    .mail_btn {
+        margin-top: 0px;
+    }
+    .mail_btnn {
+        width: 150px;
+        height: 40px;
+        font-size: 17px;
+    }
 }

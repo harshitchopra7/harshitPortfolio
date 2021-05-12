@@ -1,0 +1,11 @@
+.projects {
+    background-color: #181818;
+}
+.project_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
+}

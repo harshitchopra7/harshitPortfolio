@@ -7,7 +7,7 @@ function Banner() {
     return (
         <div className="banner">
             <div className="banner_title1">
-                <p>Hi, my name is</p>
+                <p><span className="emerge">Hi,</span> my name is</p>
             </div>
             <div className="banner_title2">
                 <p>Harshit Chopra.</p>
@@ -18,11 +18,11 @@ function Banner() {
             <div className="banner_desc2">
                 <p>
                     I am a 3rd year undergrad student pursuing Computer Science Engineering.
-                    I love working on <br />front end web development projects. 
-                    I have developed 2 real world websites till now <br /> that are
-                    currently being used by the people all over India, and 
-                    developing the <br /> third one.
-                    I am 3 star c++ and a 3 star python coder at HackerRank.
+                    I love working on front end web development projects. 
+                    I have developed <span className="emerge">2 real world websites</span> till now that are
+                    currently being <span className="emerge">used by the people all over India</span>, and 
+                    developing the third one.
+                    I am a 3 star C++ and a 3 star Python coder at HackerRank.
                 </p>
             </div>
             <div className="social_logo">
@@ -36,6 +36,11 @@ function Banner() {
                     <img className="social_logo_image" src={github} alt="" />
                 </a>
                 </div>
+            </div>
+            <div className="mail_btn">
+                <a href="mailto: chopraharshit2000@gmail.com">
+                    <button className="mail_btnn">Get in Touch</button>
+                </a>
             </div>
         </div>
     )

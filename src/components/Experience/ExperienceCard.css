@@ -1,0 +1,299 @@
+.ex {
+    width: 550px;
+    height: 600px;
+    padding: 20px;
+    margin: 40px 30px;
+    box-shadow: -8px 8px 8px 0px red;
+    background-color: #181818;
+}
+.ex_title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ex_desc {
+    font-size: 1.3rem;
+    height: 450px;
+}
+.ex_desc >p {
+    line-height: 35px;
+    padding: 5px 0
+}
+.ex_tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ex_tech_title {
+    font-size: 1.8rem;
+}
+.ex_tech_img > img {
+    height: 50px;
+    margin: 15px 8px;
+} 
+.ex_tech_img > img:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+@media only screen and (max-width: 650px) {
+    .ex {
+        width: 500px;
+        height: auto;
+        padding: 15px;
+        margin: 40px 30px;
+        box-shadow: -8px 8px 8px 0px red;
+        background-color: #181818;
+    }
+    .ex_title {
+        font-size: 2.2rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .ex_desc {
+        font-size: 1.3rem;
+        height: auto;
+    }
+    .ex_desc >p {
+        line-height: 35px;
+        padding: 5px 0
+    }
+    .ex_tech {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .ex_tech_title {
+        font-size: 1.8rem;
+    }
+    .ex_tech_img > img {
+        height: 40px;
+        margin: 15px 8px;
+    } 
+    .ex_tech_img > img:hover {
+        cursor: pointer;
+        transform: translateY(-5px);
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .ex {
+        width: 500px;
+        height: 650px;
+        padding: 15px;
+        margin: 40px 25px;
+        box-shadow: -8px 8px 8px 0px red;
+        background-color: #181818;
+    }
+    .ex_title {
+        font-size: 2.2rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .ex_desc {
+        font-size: 1.3rem;
+        height: 500px;
+    }
+    .ex_desc >p {
+        line-height: 30px;
+        padding: 5px 0
+    }
+    .ex_tech {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ex_tech_title {
+        font-size: 1.8rem;
+    }
+    .ex_tech_img > img {
+        height: 40px;
+        margin: 15px 8px;
+    } 
+    .ex_tech_img > img:hover {
+        cursor: pointer;
+        transform: translateY(-5px);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .ex {
+        width: 450px;
+        height: auto;
+        padding: 10px;
+        margin: 20px 20px;
+        box-shadow: -8px 8px 8px 0px red;
+        background-color: #181818;
+    }
+    .ex_title {
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .ex_desc {
+        font-size: 1.3rem;
+        height: auto;
+    }
+    .ex_desc >p {
+        line-height: 30px;
+        padding: 5px 0
+    }
+    .ex_tech {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .ex_tech_title {
+        font-size: 1.8rem;
+    }
+    .ex_tech_img > img {
+        height: 35px;
+        margin: 15px 8px;
+    } 
+    .ex_tech_img > img:hover {
+        cursor: pointer;
+        transform: translateY(-5px);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .ex {
+        width: 450px;
+        height: 710px;
+        padding: 10px;
+        margin: 20px 20px;
+        box-shadow: -8px 8px 8px 0px red;
+        background-color: #181818;
+    }
+    .ex_title {
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .ex_desc {
+        font-size: 1.3rem;
+        height: 570px;
+    }
+    .ex_desc >p {
+        line-height: 30px;
+        padding: 5px 0
+    }
+    .ex_tech {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ex_tech_title {
+        font-size: 1.8rem;
+    }
+    .ex_tech_img > img {
+        height: 30px;
+        margin: 15px 8px;
+    } 
+    .ex_tech_img > img:hover {
+        cursor: pointer;
+        transform: translateY(-5px);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .ex {
+        width: 90vw;
+        height: auto;
+        padding: 10px 3px;
+        margin: 20px 0;
+        box-shadow: -5px 5px 5px 0px red;
+        background-color: #181818;
+    }
+    .ex_title {
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .ex_desc {
+        font-size: 1.3rem;
+        height: auto;
+    }
+    .ex_desc >p {
+        line-height: 25px;
+        padding: 5px 0
+    }
+    .ex_tech {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ex_tech_title {
+        font-size: 1.8rem;
+    }
+    .ex_tech_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .ex_tech_img > img {
+        height: 30px;
+        margin: 15px 7px;
+    } 
+    .ex_tech_img > img:hover {
+        cursor: pointer;
+        transform: translateY(-5px);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .ex {
+        /* width: 10vw; */
+        height: auto;
+        padding: 10px 10px;
+        margin: 20px 0;
+        box-shadow: -5px 5px 5px 0px red;
+    }
+    .ex_title {
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .ex_desc {
+        font-size: 1.2rem;
+        height: auto;
+    }
+    .ex_desc >p {
+        line-height: 25px;
+        padding: 5px 0;
+    }
+    .ex_tech {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .ex_tech_title {
+        font-size: 1.8rem;
+    }
+    .ex_tech_img > img {
+        height: 40px;
+        margin: 15px 20px;
+    } 
+    .ex_tech_img > img:hover {
+        cursor: pointer;
+        transform: translateY(-5px);
+    }
+}
