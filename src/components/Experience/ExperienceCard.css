@@ -201,7 +201,7 @@
     }
     .ex_tech_img > img {
         height: 30px;
-        margin: 15px 8px;
+        margin: 15px 7px;
     } 
     .ex_tech_img > img:hover {
         cursor: pointer;

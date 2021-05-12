@@ -12,6 +12,7 @@ import material from '../images/material.svg';
 import wordpress from '../images/wordpress.png';
 import woo from '../images/woo.svg';
 import ga from '../images/ga.png';
+import tm from '../images/tm.png';
 import ExperienceCard from './ExperienceCard';
 
 function Experience() {
@@ -63,13 +64,14 @@ function Experience() {
                     line1="> Single handedly designed and built a responsive ecommerce website from scratch on wordpress."
                     line2="> In this website the user can browse and buy furnitures."
                     line3="> Manually added Google Analytics on the website, and then analysed the user's data through it."
-                    line4=">  Built and added various components by using html and css."
+                    line4="> Built and added various components by using html and css."
                     line5=""
                     img1={html}
                     img2={css}
                     img3={wordpress}
                     img4={woo}
-                    img5={ga}
+                    img6={ga}
+                    img7={tm}
                 />
             </div>
 
