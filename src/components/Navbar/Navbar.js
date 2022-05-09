@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import resume from '../resume/HarshitResume.pdf';
+import resume from '../resume/Harshit_May.pdf';
 import $ from 'jquery';
 
 function Navbar() {
